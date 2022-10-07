@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+	<!-- Datos que describen el documento -->
+	<meta charset="UTF-8" />
+	
+	<!--Metadatos de los documentos HTML5-->
+	<meta name ="author" content ="Sara María Ramírez Pérez" />
+	<meta name ="description" content ="Formulario de contacto y opinión sobre el sitio web." />
+	<meta name ="keywords" content ="rust,lenguaje,programacion,formulario,ayuda,contacto" />
+
+	<!--Definición de la ventana gráfica-->
+	<meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+	
+	<title>Rust - Formulario</title>
+
+	<!--Hojas de estilo-->
+	<link rel="stylesheet" type="text/css" href="estilo/estilo-multimedia.css" />
+	<link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+	<link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+	<header> 
+		<h1>Contacto y opinión</h1>
+	</header>
+	
+	<nav> 
+		<a tabindex="1" accesskey="I" href="index.html" >Inicio</a>
+		<a tabindex="2" accesskey="N" href="info.html" >Información adicional y ejemplos</a>
+		<a tabindex="3" accesskey="V" href="versiones.html" >Versiones</a>
+		<a tabindex="4" accesskey="F" href="formulario.html" >Formulario de contacto y opinión</a>
+	</nav>
+
+	<main>
+		<h2>Formulario de contacto</h2>
+		<p>Si necesitas ayuda o quieres contribuir, rellena este formulario y te contactaremos lo antes posible. </p>
+		<p>¡Gracias por tu apoyo! </p>
+		<form name="opinion">
+			<p>
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre">
+			</p>
+			<p>
+				<label for="email">Email:</label>
+				<input type="email" id="email">
+			</p>
+			<p>
+				<label for="birthdate">Fecha de nacimiento:</label>
+				<input type="date" id="birthdate">
+			</p>
+			<fieldset>
+				<legend>¿Tienes algún conocimiento sobre programación?</legend>
+				<input type="radio" id="si" name="si/no" value="Si">
+				<label for="si">Si</label>
+				<input type="radio" id="no" name="si/no" value="No">
+				<label for="no">No</label>
+			</fieldset>
+			<p>
+				<label for="pregunta">¿Tienes alguna pregunta? </label>
+			</p>
+			<textarea id="pregunta" cols ="15" rows ="6"></textarea> 
+			<p>
+				<label for="explica">Explica si te ha sido útil el contenido de esta web.</label>
+			</p>
+			<textarea id="explica" cols ="15" rows ="6"></textarea>
+			<p><input type="submit" value="Enviar"></p>
+		</form>
+	</main>
+	
+	<footer>
+		<img src="multimedia/HTML5.png" alt="HTML5 Válido!" />
+		<img src="multimedia/CSS3.png"  alt="CSS Válido!"  />
+		<p>SEW Octubre, 2022</p>
+		<p>Copyright @2022 Sara María Ramírez Pérez</p>
+	</footer>	
+</body>
+</html>

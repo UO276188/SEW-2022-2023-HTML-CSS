@@ -1,0 +1,31 @@
+/********** 
+	Sara María Ramírez Pérez - UO276188 
+	Estilos comunes a todo el sitio web
+**********/
+
+/*Especificidad: 001*/
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+/*Especificidad: 001*/
+table, th, td {
+	border: 0.15em;
+	border-style: solid;
+	border-color: #000001;
+}
+/*Especificidad: 001*/
+th, td {
+	padding: 1em;
+}
+/*Especificidad: 001*/
+th{
+	color: #545454;
+	background-color: #f7f7f7;
+	text-align: center;
+}
+/*Especificidad: 002*/
+table caption {
+	font-size: 2em;
+	text-transform: uppercase;
+}

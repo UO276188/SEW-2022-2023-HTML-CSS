@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+	<!-- Datos que describen el documento -->
+	<meta charset="UTF-8" />
+	
+	<!--Metadatos de los documentos HTML5-->
+	<meta name ="author" content ="Sara María Ramírez Pérez" />
+	<meta name ="description" content ="Información extra sobre Rust y ejemplos." />
+	<meta name ="keywords" content ="rust,lenguaje,programacion,ejemplo" />
+
+	<!--Definición de la ventana gráfica-->
+	<meta name ="viewport" content ="width=device-width, initial scale=1.0" />
+	
+	<title>Rust - Infiormación general y ejemplos</title>
+
+	<!--Hojas de estilo-->
+	<link rel="stylesheet" type="text/css" href="estilo/estilo-multimedia.css" />
+	<link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+	<link rel="stylesheet" type="text/css" href="estilo/estilo-tabla.css" />
+	<link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+</head>
+
+<body>
+	<header> 
+		<h1>Información general y ejemplos</h1>
+	</header>
+	
+	<nav> 
+		<a tabindex="1" accesskey="I" href="index.html" >Inicio</a>
+		<a tabindex="2" accesskey="N" href="info.html" >Información adicional y ejemplos</a>
+		<a tabindex="3" accesskey="V" href="versiones.html" >Versiones</a>
+		<a tabindex="4" accesskey="F" href="formulario.html" >Formulario de contacto y opinión</a>
+	</nav>
+
+	<main>
+		<table>
+			<caption>Detalles</caption>
+			<tr>
+				<th>Extensión</th>
+				<td>.rs</td>
+			</tr>
+			<tr>
+				<th>Fecha de aparición</th>
+				<td>2010</td>
+			</tr>
+			<tr>
+				<th>Diseñador</th>
+				<td>Graydon Hoare</td>
+			</tr>
+			<tr>
+				<th>Última versión</th>
+				<td>1.62.0</td>
+			</tr>
+		</table>
+		
+
+		<h2>Ejemplos</h2>
+		<p>El siguiente código es válido para Rust 0.8. En versiones posteriores puede cambiar la sintaxis o las funciones.</p>
+		<p>Programa que muestra la frase "¡Hola, mundo!":</p>
+		<pre> <code>
+			fn main() {
+				println!("¡Hola, mundo!");
+			} </code>
+		</pre>
+		<p>Función para calcualar el factorial:</p>
+		<pre>
+			<code>
+			fn factorial(i: u64) -> u64 {
+				if i == 0 {
+					1
+				} else {
+					i * factorial(i - 1)
+				}
+			}
+			</code>
+		</pre>
+	</main>
+	
+	<footer>
+		<img src="multimedia/HTML5.png" alt="HTML5 Válido!" />
+		<img src="multimedia/CSS3.png"  alt="CSS Válido!"  />
+		<p>SEW Octubre, 2022</p>
+		<p>Copyright @2022 Sara María Ramírez Pérez</p>
+	</footer>	
+</body>
+</html>

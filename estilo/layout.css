@@ -1,0 +1,34 @@
+/********** 
+	Sara María Ramírez Pérez - UO276188 
+	Estilos comunes a todo el sitio web
+**********/
+
+/*Especificidad: 001*/
+body {
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-template-areas: 
+	"header header"
+	"nav main"
+	"footer footer";
+}
+
+/*Especificidad: 002*/
+body header{
+	grid-area: header;
+}
+/*Especificidad: 002*/
+body main{
+	grid-area: main;
+	padding: 0.5em;
+}
+/*Especificidad: 002*/
+body nav {
+	grid-area: nav;
+}
+
+/*Especificidad: 002*/
+body footer{
+	grid-area: footer;
+	padding: 1em;
+}	
