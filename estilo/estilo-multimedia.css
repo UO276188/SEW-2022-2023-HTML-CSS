@@ -8,8 +8,8 @@ body main video{
 	width: 50vw;
 }
 
-/*Especificidad: 003*/
-body main img{
+/*Especificidad: 003
+body main picture{
 	width: 40vw;
 }
 
