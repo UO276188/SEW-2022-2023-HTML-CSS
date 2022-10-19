@@ -30,13 +30,13 @@ h2 {
 body nav {
 	padding: 0.5em;
 	background-color: #FDEAF2;
+	color: black;
 	border:  #670A30;
 }
 
-
-
 /*Especificidad: 002*/
 nav a{
+	background-color: #FDEAF2;
 	color: black;
 }
 
