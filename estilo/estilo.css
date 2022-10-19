@@ -29,7 +29,6 @@ h2 {
 /*Especificidad: 002*/
 body nav {
 	padding: 0.5em;
-	border-style: solid; 
 	background-color: #FDEAF2;
 	border:  #670A30;
 }
@@ -38,7 +37,6 @@ body nav {
 
 /*Especificidad: 002*/
 nav a{
-	padding: 0.6em;
 	color: black;
 }
 
