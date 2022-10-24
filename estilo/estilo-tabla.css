@@ -5,7 +5,7 @@
 
 /*Especificidad: 001*/
 table {
-	width: 100%;
+	width: 80%;
 	border-collapse: collapse;
 }
 /*Especificidad: 001*/
@@ -22,7 +22,6 @@ th, td {
 th{
 	color: #545454;
 	background-color: #f7f7f7;
-	text-align: center;
 }
 /*Especificidad: 002*/
 table caption {

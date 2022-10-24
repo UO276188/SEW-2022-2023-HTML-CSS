@@ -5,33 +5,35 @@
 
 /*Especificidad: 001*/
 body {
-	font-family: Georigia, Thaoma, serif;
+	font-family: Georgia, Thaoma, serif;
 	color: #545454;
 	background-color: #fff;
-	text-align: justify;
+	justify-self: stretch;
 }
+
 /*Especificidad: 001*/
 h1 {
 	color: #E3E3E3;    
 	background-color:#064260; 
 	text-transform: uppercase;
 	padding: 2em; 
-	text-align: center;     
 }
 /*Especificidad: 001*/ 
 h2 {
 	color: #E3E3E3;
 	background-color:#670A30; 
-	text-align: left;
 	padding: 0.5em;
 }
 
 /*Especificidad: 002*/
 body nav {
-	padding: 0.5em;
 	background-color: #FDEAF2;
 	color: black;
-	border:  #670A30;
+}
+/*Especificidad: 002*/
+nav li{
+	list-style-type: none;
+	padding: 0.5em;
 }
 
 /*Especificidad: 002*/
@@ -53,10 +55,9 @@ body footer{
 /*Especificidad: 004*/
 body main pre code{
 	color: #000;
-	background-color: #fff;
+	background-color: rgb(240, 230, 230);
 }
 /*Especificidad: 001*/
 li {
 	list-style-type: square;
-	padding: 0.5em;
-  }
+}

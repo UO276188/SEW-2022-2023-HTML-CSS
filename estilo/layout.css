@@ -11,24 +11,30 @@ body {
 	"header header"
 	"nav main"
 	"footer footer";
+	column-gap: 1em;
+	row-gap: 1em;
 }
 
 /*Especificidad: 002*/
 body header{
 	grid-area: header;
+	justify-self: stretch;
+	align-self: stretch;
+	justify-items: center;
 }
 /*Especificidad: 002*/
 body main{
 	grid-area: main;
-	padding: 0.5em;
+	justify-items: stretch;
 }
+
 /*Especificidad: 002*/
 body nav {
 	grid-area: nav;
+	justify-self: stretch;
 }
 
 /*Especificidad: 002*/
 body footer{
 	grid-area: footer;
-	padding: 1em;
 }	
